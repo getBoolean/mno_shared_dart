@@ -4,26 +4,32 @@ version: 0.1.3
 homepage: https://github.com/Mantano/mno_shared_dart
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   archive: ^3.1.5
   collection: ^1.15.0
   crypto: ^3.0.1
-  dartx: ^0.7.1
-  dfunc: ^0.7.2
+  dartx: ^1.2.0
+  dfunc: ^0.9.0
   equatable: ^2.0.3
-  fimber: ^0.6.1
-  http: ^0.13.4
-  image: ^3.0.8
-  intl: ^0.17.0
+  fimber: ^0.7.0
+  http: ^1.1.0
+  image: ^4.1.3
+  intl: ^0.18.1
   meta: ^1.7.0
   path: ^1.8.0
   universal_io: ^2.0.4
-  xml: ^5.3.0
-  mno_commons: ^0.1.2
+  xml: ^6.4.2
+  mno_commons:
+    git: 
+      url: https://github.com/getBoolean/mno_commons_dart
+      ref: upgrade_deps
 
 dev_dependencies:
-  image_compare: ^1.1.1
-  lints: ^1.0.1
+  image_compare:
+    git: 
+      url: https://github.com/getBoolean/image_compare
+      ref: upgrade_deps
+  lints: ^2.1.1
   test: ^1.18.2
